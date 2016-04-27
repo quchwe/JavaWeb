@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>HelloWorld</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>TestUrl</servlet-name>
+    <servlet-class>TestUrl</servlet-class>
+</servlet>
+
+    <servlet-mapping>
+        <servlet-name>TestUrl</servlet-name>
+        <url-pattern>/TestUrl</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginTest</servlet-name>
+        <servlet-class>choosecourse.LoginTest</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginTest</servlet-name>
+        <url-pattern>/choosecourse/LoginTest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>QueryCourse</servlet-name>
+        <servlet-class>choosecourse.QueryCourse</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>QueryCourse</servlet-name>
+        <url-pattern>/choosecourse/QueryCourse</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HaveChoosedCourse</servlet-name>
+        <servlet-class>choosecourse.HaveChoosedCourse</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HaveChoosedCourse</servlet-name>
+        <url-pattern>/choosecourse/HaveChoosedCourse</url-pattern>
+
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExcuteSqlServer</servlet-name>
+        <servlet-class>choosecourse.ExcuteSqlServer</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ExcuteSqlServer</servlet-name>
+        <url-pattern>/choosecourse/ExcuteSqlServer</url-pattern>
+
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TuiJianCourseServer</servlet-name>
+        <servlet-class>choosecourse.TuiJianCourseServer</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TuiJianCourseServer</servlet-name>
+        <url-pattern>/choosecourse/TuiJianCourseServer</url-pattern>
+
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DiaryServer</servlet-name>
+        <servlet-class>choosecourse.DiaryServer</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DiaryServer</servlet-name>
+        <url-pattern>/choosecourse/DiaryServer</url-pattern>
+
+    </servlet-mapping>
+</web-app>
